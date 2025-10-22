@@ -13,7 +13,7 @@ const tabs = [
     { name: "/quran", label: "Quran", icon: "book", type: "Feather" },
     { name: "/qibla", label: "Qibla", icon: "compass", type: "Feather" },
     { name: "/zakat", label: "Zakat", icon: "hand-heart", type: "MaterialCommunityIcons" },
-    { name: "/more", label: "More", icon: "dots-horizontal", type: "MaterialCommunityIcons" },
+    // { name: "/more", label: "More", icon: "dots-horizontal", type: "MaterialCommunityIcons" },
 ] as const;
 
 export default function CustomTabBar() {
