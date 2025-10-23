@@ -70,7 +70,7 @@ const ActionButton = ({ icon, name, onPress, iconSet = 'MaterialCommunityIcons' 
 
   return (
     <TouchableOpacity
-      style={tw`items-center mr-4`} // 👈 removed flex-1 and added margin-right for spacing
+      style={tw`items-center mr-4`}
       onPress={onPress}
       activeOpacity={0.7}
     >
@@ -549,10 +549,10 @@ const Index = () => {
           showsHorizontalScrollIndicator={false}
           contentContainerStyle={tw`flex-row items-center px-5 mt-8`}
         >
-          <ActionButton icon="pray-outline" name="নামাজ" onPress={() => router.push('/namaz')} />
+          <ActionButton icon="hands-pray" name="নামাজ" onPress={() => router.push('/namaz')} />
           <ActionButton icon="book-open-variant" name="দুআ" onPress={() => router.push('/dua')} />
           <ActionButton icon="compass-outline" name="কিবলা" onPress={() => router.push('/qibla')} />
-          <ActionButton icon="hand-pray" name="তাসবিহ" onPress={() => router.push('/tasbeeh')} />
+          <ActionButton icon="hands-pray" name="তাসবিহ" onPress={() => router.push('/tasbeeh')} />
           <ActionButton icon="hand-coin-outline" name="যাকাত" onPress={() => router.push('/zakat')} />
         </ScrollView>
 
