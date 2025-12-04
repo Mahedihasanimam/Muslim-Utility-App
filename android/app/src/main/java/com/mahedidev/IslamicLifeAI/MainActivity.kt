@@ -1,4 +1,4 @@
-package com.mahedidev.DeenerPothe
+package com.mahedidev.IslamicLifeAI
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build

@@ -291,7 +291,7 @@ const DuaScreen = () => {
             const arabicText = Array.isArray(item.arabic) ? item.arabic.join('\n') : item.arabic;
             const pronunText = Array.isArray(item.banglaPronunciation) ? item.banglaPronunciation.join('\n') : item.banglaPronunciation;
             const meaningText = Array.isArray(item.banglaMeaning) ? item.banglaMeaning.join('\n') : item.banglaMeaning;
-            const message = `${item.title_bn ? item.title_bn + '\n\n' : ''}${arabicText}\n\nউচ্চারণ:\n${pronunText}\n\nঅর্থ:\n${meaningText}\n\nসূত্র: ${item.source}\n\n(DeenerPothe শেয়ার করা হয়েছে)`; // <-- আপনার অ্যাপের নাম যোগ করুন
+            const message = `${item.title_bn ? item.title_bn + '\n\n' : ''}${arabicText}\n\nউচ্চারণ:\n${pronunText}\n\nঅর্থ:\n${meaningText}\n\nসূত্র: ${item.source}\n\n(IslamicLifeAI শেয়ার করা হয়েছে)`; // <-- আপনার অ্যাপের নাম যোগ করুন
 
             await Share.share({
                 message: message,

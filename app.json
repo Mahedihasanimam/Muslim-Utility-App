@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "DeenerPothe",
-    "slug": "DeenerPothe",
+    "name": "IslamicLifeAI",
+    "slug": "IslamicLifeAI",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/androidicon.png",
-    "scheme": "DeenerPothe",
+    "scheme": "IslamicLifeAI",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -17,7 +17,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.mahedidev.DeenerPothe",
+      "package": "com.mahedidev.IslamicLifeAI",
       "permissions": ["INTERNET"]
     },
     "web": {

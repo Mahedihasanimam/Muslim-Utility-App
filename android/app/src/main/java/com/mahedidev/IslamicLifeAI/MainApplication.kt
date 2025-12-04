@@ -1,4 +1,4 @@
-package com.mahedidev.DeenerPothe
+package com.mahedidev.IslamicLifeAI
 
 import android.app.Application
 import android.content.res.Configuration
