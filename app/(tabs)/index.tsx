@@ -1317,6 +1317,9 @@ const Index = () => {
           <ActionButton icon="hand-heart" name="যাকাত" onPress={() => router.push('/zakat')} />
 
 
+          <ActionButton icon="baby-face-outline" name="ইসলামিক নাম" onPress={() => router.push('/screen/BabyNames')} />
+
+
 
         </ScrollView>
 

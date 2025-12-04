@@ -207,8 +207,8 @@ const BabyNames = () => {
                                 setActiveTab(tab.key);
                             }}
                             style={tw`flex-1 items-center py-2 mx-1 rounded-lg border ${activeTab === tab.key
-                                    ? `bg-[${THEME.primary}] border-[${THEME.primary}]`
-                                    : `bg-[${THEME.card}] border-[${THEME.border}]`
+                                ? `bg-[${THEME.primary}] border-[${THEME.primary}]`
+                                : `bg-[${THEME.card}] border-[${THEME.border}]`
                                 }`}
                         >
                             <Ionicons
